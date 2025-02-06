@@ -1,0 +1,977 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #000;
+}
+
+nav {
+    display: flex;
+    height: 90px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 150px;
+    height: 85px;
+    margin: 0 50px;
+}
+
+.btn1 {
+    margin: 10px;
+
+}
+
+.btn1 button {
+    height: 45px;
+    width: 120px;
+    border-radius: 30px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn2 {
+    margin: 10px;
+}
+
+.btn2 button {
+    height: 45px;
+    width: 120px;
+    border-radius: 30px;
+    background: red;
+    color: #fff;
+    border: 1px solid red;
+    text-transform: capitalize;
+}
+
+/* MAIN-IMG */
+.main-img {
+    width: 100%;
+    height: 500px;
+}
+
+.main-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* OUR-BRANDS */
+.para-our-brands {
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 60px 0;
+}
+
+.maincard-our-brands {
+    display: flex;
+    gap: 20px;
+    padding: 0 200px;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+.maincard-our-brands .cards img {
+    background-color: #fff;
+    padding-top: 15px;
+    height: 110px;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn button {
+    height: 45px;
+    width: 140px;
+    border-radius: 30px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+/* Restaurant Franchises */
+.para-restaurant-franchises {
+    color: #fff;
+    text-align: center;
+}
+
+.para-restaurant-franchises h1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.para-restaurant-franchises p {
+    text-transform: capitalize;
+    color: #ffffffab;
+}
+
+.maincard-restaurant-franchises {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background: #fbfbfb13;
+    flex-wrap: wrap;
+}
+
+.cards-restaurant-franchises {
+    width: 40%;
+    height: 300px;
+    margin-left: 70px;
+}
+
+.maincard-restaurant-franchises .cards-restaurant-franchises p {
+    color: red;
+    letter-spacing: 7px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.maincard-restaurant-franchises .cards-restaurant-franchises h1 {
+    color: #fff;
+}
+
+.maincard-restaurant-franchises .cards-restaurant-franchises h6 {
+    color: #ffffffab;
+    display: flex;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.maincard-restaurant-franchises .cards-restaurant-franchises img {
+    width: 20px;
+}
+
+.maincard-restaurant-franchises .cards-restaurant-franchises h5 {
+    color: #ffffffab;
+    display: flex;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.maincard-restaurant-franchises .cards-restaurant-franchises img {
+    width: 20px;
+}
+
+.maincard-restaurant-franchises .cards-restaurant-franchises .btn-restaurant-franchises button {
+    width: 130px;
+    text-transform: capitalize;
+    height: 45px;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid white;
+}
+
+.cards-restaurant-franchises .img-restaurant-franchises img {
+    width: 500px;
+    height: 320px;
+}
+
+/* express-franchises-heading */
+.express-franchises-heading h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.express-franchises-maincard {
+    width: 100%;
+    height: 580px;
+    background: #fbfbfb13;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.express-franchises-cards {
+    width: 28%;
+    height: 550px;
+    text-align: center;
+    margin: 20px 33px;
+}
+
+.express-franchises-content p {
+    color: red;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.express-franchises-content h1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.express-franchises-content h5 img {
+    width: 20px;
+}
+
+.express-franchises-content h5 {
+    color: #ffffffab;
+    font-size: 15px;
+}
+
+.express-franchises-content h6 img {
+    width: 20px;
+}
+
+.express-franchises-content h6 {
+    color: #ffffffab;
+    font-size: 15px;
+}
+
+.btn-express-franchises button {
+    width: 130px;
+    text-transform: capitalize;
+    height: 45px;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid white;
+}
+
+.express-franchises-maincard3 {
+    width: 100%;
+    height: 580px;
+    background: #fbfbfb13;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.express-franchises-cards3 {
+    width: 28%;
+    height: 550px;
+    text-align: center;
+    margin: 20px 33px;
+}
+
+.express-franchises-cards3 img {
+    width: 350px;
+    height: 250px;
+}
+
+.express-franchises-content p {
+    color: red;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.express-franchises-content h1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.express-franchises-content h5 img {
+    width: 20px;
+}
+
+.express-franchises-content h5 {
+    color: #ffffffab;
+    font-size: 15px;
+}
+
+.express-franchises-content h6 img {
+    width: 20px;
+}
+
+.express-franchises-content h6 {
+    color: #ffffffab;
+    font-size: 15px;
+}
+
+.btn-express-franchises button {
+    width: 130px;
+    text-transform: capitalize;
+    height: 45px;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid white;
+}
+
+/* VILLAGE-FRANCHISE */
+.village-franchise-heading {
+    color: #fff;
+    text-align: center;
+}
+
+.village-franchise-heading h1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.village-franchise p {
+    text-transform: capitalize;
+    color: #ffffffab;
+}
+
+.cards-village-franchise img {
+    width: 100%;
+}
+
+.maincard-village-franchise {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fbfbfb13;
+}
+
+.cards-village-franchise {
+    width: 48%;
+    height: 300px;
+    margin: 20px 10px;
+}
+
+.maincard-village-franchise .cards-village-franchise p {
+    color: red;
+    letter-spacing: 7px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.maincard-village-franchise .cards-village-franchise h1 {
+    color: #fff;
+}
+
+.maincard-village-franchise .cards-village-franchise h6 {
+    color: #ffffffab;
+    display: flex;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.maincard-village-franchise .cards-village-franchise h6 img {
+    width: 20px;
+}
+
+.maincard-village-franchise .cards-village-franchise h5 {
+    color: #ffffffab;
+    display: flex;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.maincard-village-franchise .cards-village-franchise h5 img {
+    width: 20px;
+}
+
+.btn-village-franchise button {
+    width: 130px;
+    text-transform: capitalize;
+    height: 45px;
+    border-radius: 20px;
+    background: green;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid green;
+}
+
+.cards-village-franchise .img-village-franchise img {
+    width: 500px;
+    height: 320px;
+}
+
+/* ONEING-SOON */
+.opening-soon-heading h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+.maincard-opening-soon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.cards-opening-soon {
+    width: 27%;
+    height: 250px;
+    margin-left: 35px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 7px;
+}
+
+.cards-opening-soon img {
+    margin: 20px 0;
+}
+
+.content-opening-soon p {
+    letter-spacing: 6px;
+    color: red;
+    font-size: 10px;
+}
+
+.content-opening-soon h1 {
+    color: white;
+    font-size: 20px;
+    color: #000;
+    padding: 0 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* SOCIAL-FEED */
+.social-feed-heading h1 {
+    font-size: 35px;
+    color: #393939ab;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.maincard-social-feed {
+    /* width: 100%; */
+    height: 300px;
+    display: flex;
+    gap: 25px;
+    margin: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.cards-social-feed {
+    width: 18%;
+    height: 230px;
+}
+
+.cards-social-feed img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #fbfbfb13;
+    padding: 40px 20px;
+    color: #d3d3d3;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-section a {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+.footer-section h2,
+.footer-section h3 {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-section span {
+    color: red;
+}
+
+.footer-section p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #d3d3d3;
+}
+
+.social-icons img {
+    width: 50px;
+
+}
+
+.app-links img {
+    width: 110px;
+    height: 37px;
+    margin: 10px 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+}
+
+
+
+/* Responsive Design */
+/* 4K SCREEN */
+@media screen and (max-width: 2756px) and (min-width:1441px) {
+    nav {
+        height: 140px;
+    }
+
+    nav .logo img {
+        width: 250px;
+        height: 140px;
+    }
+
+    nav ul li {
+        font-size: 35px;
+    }
+
+    nav .btn1 button {
+        width: 170px;
+        height: 80px;
+        font-size: 20px;
+        border: 2px solid white;
+    }
+
+    nav .btn2 button {
+        width: 170px;
+        height: 80px;
+        font-size: 20px;
+        border: 2px solid red;
+    }
+
+    .main-img img {
+        height: 1000px;
+        width: 100%;
+    }
+
+    .para-our-brands {
+        margin-top: 650px;
+        font-size: 30px;
+    }
+
+    .maincard-our-brands {
+        width: 2170px;
+    }
+
+    .cards {
+        width: 32%;
+    }
+
+    .cards img {
+        width: 100%;
+
+    }
+
+    .btn button {
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+
+    }
+
+    .para-restaurant-franchises h1 {
+        font-size: 60px;
+    }
+
+    .para-restaurant-franchises p {
+        font-size: 30px;
+    }
+
+    .maincard-restaurant-franchises {
+        width: 100%;
+        height: 800px;
+    }
+
+    .cards-restaurant-franchises p {
+        font-size: 45px;
+    }
+
+    .cards-restaurant-franchises h1 {
+        font-size: 60px;
+    }
+
+    .cards-restaurant-franchises {
+        height: 700px;
+        margin-left: 180px;
+    }
+
+    .maincard-restaurant-franchises .cards-restaurant-franchises h5 img {
+        width: 40px;
+    }
+
+    .maincard-restaurant-franchises .cards-restaurant-franchises h5 {
+        font-size: 30px;
+    }
+
+    .maincard-restaurant-franchises .cards-restaurant-franchises h6 img {
+        width: 40px;
+    }
+
+    .maincard-restaurant-franchises .cards-restaurant-franchises h6 {
+        font-size: 30px;
+    }
+
+    .maincard-restaurant-franchises .cards-restaurant-franchises .btn-restaurant-franchises button {
+        width: 250px;
+        height: 80px;
+        font-size: 30px;
+
+    }
+
+    .cards-restaurant-franchises .img-restaurant-franchises img {
+        width: 100%;
+        height: 700px;
+    }
+
+    .express-franchises-maincard {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .express-franchises-cards {
+        width: 30.5%;
+        height: 100%;
+    }
+
+    .express-franchises-maincard .express-franchises-cards img {
+        width: 80%;
+    }
+
+    .express-franchises-content p {
+        font-size: 28px;
+    }
+
+    .express-franchises-content h1 {
+        font-size: 40px;
+    }
+
+    .express-franchises-content h5 {
+        font-size: 23px;
+    }
+
+    .express-franchises-content h6 {
+        font-size: 25px;
+    }
+
+    .express-franchises-content img {
+        display: none;
+    }
+
+    .btn-express-franchises button {
+        width: 280px;
+        height: 100px;
+        font-size: 30px;
+    }
+
+    .express-franchises-maincard3 {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .express-franchises-cards3 {
+        width: 30.5%;
+        height: 100%;
+    }
+
+    .express-franchises-maincard3 .express-franchises-cards3 img {
+        width: 80%;
+        height: 500px;
+    }
+
+    .village-franchise-heading h1 {
+        font-size: 60px;
+    }
+
+    .maincard-village-franchise {
+        height: 900px;
+    }
+
+    .cards-village-franchise p {
+        font-size: 28px;
+    }
+
+    .cards-village-franchise h1 {
+        font-size: 50px;
+    }
+
+    .cards-village-franchise .btn-village-franchise button {
+        width: 200px;
+        height: 90px;
+        font-size: 27px;
+    }
+
+    .opening-soon-heading {
+        margin-top: 100px;
+    }
+
+    .opening-soon-heading h1 {
+        font-size: 60px;
+    }
+
+    .cards-opening-soon {
+        width: 28%;
+        height: 300px;
+        margin-left: 90px;
+    }
+
+    .cards-opening-soon img {
+        width: 100px;
+    }
+
+    .cards-opening-soon p {
+        font-size: 20px;
+    }
+
+    .cards-opening-soon h1 {
+        font-size: 32px;
+    }
+
+    .social-feed-heading h1 {
+        font-size: 60px;
+    }
+
+    .cards-social-feed {
+        margin-left: 22px;
+    }
+
+    .footer-container {
+        max-width: 1800px;
+        font-size: 40px;
+    }
+
+    .footer-section h2,
+    .footer-section h3 {
+        font-size: 35px;
+    }
+
+    .footer-section p,
+    .footer-section ul li a {
+        font-size: 18px;
+    }
+
+    .social-icons img,
+    .app-links img {
+        width: 50px;
+    }
+
+    .footer-bottom {
+        font-size: 25px;
+    }
+}
+
+
+
+/* Tablets SCREEN  */
+@media screen and (max-width: 768px) {
+    nav {
+        width: 950px;
+    }
+
+    .main-img {
+        width: 950px;
+    }
+
+    .para-our-brands {
+        margin-left: 200px;
+    }
+
+    .maincard-our-brands .cards {
+        margin-left: 160px;
+    }
+
+    .para-restaurant-franchises {
+        margin-top: 330px;
+        margin-left: 200px;
+    }
+
+    .para-restaurant-franchises h1 {
+        font-size: 40px;
+    }
+
+    .maincard-restaurant-franchises {
+        width: 950px;
+    }
+
+    .cards-restaurant-franchises .img-restaurant-franchises img {
+        width: 420px;
+    }
+
+    .express-franchises-heading {
+        margin-left: 200px;
+    }
+
+    .express-franchises-maincard {
+        width: 950px;
+        height: 700px;
+    }
+
+    .express-franchises-cards {
+        width: 200px;
+        margin-left: 60px;
+    }
+
+    .express-franchises-cards img {
+        width: 250px;
+    }
+
+    .express-franchises-maincard3 {
+        width: 950px;
+        /* height: 100px; */
+    }
+
+    .express-franchises-cards3 {
+        width: 200px;
+        margin-left: 60px;
+    }
+
+    .express-franchises-cards3 img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .village-franchise-heading {
+        margin-left: 200px;
+    }
+
+    .maincard-village-franchise {
+        width: 950px;
+        height: 400px;
+    }
+
+    .cards-village-franchise {
+        width: 47.4%;
+    }
+
+    .cards-village-franchise img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .opening-soon-heading {
+        margin-left: 200px;
+    }
+
+    .maincard-opening-soon {
+        width: 950px;
+    }
+
+    .cards-opening-soon {
+        width: 25%;
+    }
+
+    .social-feed-heading {
+        margin-left: 200px;
+    }
+
+    .maincard-social-feed {
+        width: 950px;
+    }
+
+    .cards-social-feed {
+        width: 17.3%;
+    }
+
+    footer {
+        width: 950px;
+    }
+
+
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        width: 90%;
+        margin: 15px 0;
+    }
+
+    .social-icons img,
+    .app-links img {
+        width: 35px;
+    }
+}
+
+/* Mobile (480px and below) */
+@media screen and (max-width: 480px) {
+    nav ul li{
+        display: none;
+    }
+    .para-our-brands{
+        margin-left: 370px;
+        width: 240px;
+    }
+    .para-restaurant-franchises{
+        margin-left: 370px;
+        width: 240px;
+    }
+    .express-franchises-heading{
+        margin-left: 370px;
+        width: 240px;
+    }
+    .village-franchise-heading{
+        margin-left: 370px;
+        width: 240px;
+    }
+    .opening-soon-heading{
+        margin-left: 370px;
+        width: 240px;
+    }
+    .social-feed-heading{
+        margin-left: 370px;
+        width: 240px;
+    }
+    .footer-container {
+        padding: 20px 10px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .social-icons img,
+    .app-links img {
+        width: 30px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
