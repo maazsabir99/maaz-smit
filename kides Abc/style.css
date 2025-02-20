@@ -10,13 +10,15 @@ body{
 .top{
     margin-left: 1190px;
     margin-top: 200px;
-    border: 1px solid rgb(237, 142, 0);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 50px;
     position: fixed;
     box-shadow: 5px 5px 7px black; 
     width: 60px;   
+    background: #000;
     height: 40px;
     text-align: center; 
+    right: 20px;
 }
 .top a{
     text-decoration: none;  
