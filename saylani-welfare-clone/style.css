@@ -235,7 +235,7 @@ header {
     color: #ffff;
     border-radius: 5px;
     font-weight: 500;
-    transition: .2s ease-in-out;
+    /* transition: .2s ease-in-out; */
 }
 
 
@@ -248,7 +248,7 @@ header {
     background-color: white;
     color: black;
     cursor: pointer;
-    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    /* transition: cubic-bezier(0.19, 1, 0.22, 1); */
 }
 
 .amount_box>span{
@@ -256,7 +256,7 @@ header {
 }
 
 .amount_box:hover{
-    transform: scale(1.5);
+    /* transform: scale(1.5); */
     color: white;
     background-color: black;
 }
