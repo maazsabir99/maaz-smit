@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(249, 249, 249, 0.518);
+    text-align: center;
+}
+
+.time {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.time sup {
+    font-size: 20px;
+    position: absolute;
+    top: -10px;
+    right: -40px;
+}
+
+.time small {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.date {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #e0e0e0;
+}
+
+.date span {
+    margin: 0 4px;
+}
